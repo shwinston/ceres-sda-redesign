@@ -6,19 +6,21 @@ This is **not** the live site. Forms are not connected, and items highlighted in
 - GitHub Pages preview: https://shwinston.github.io/ceres-sda-redesign/
 - Cloudflare preview: https://ceres-sda-preview.weathered-feather-4569.workers.dev
 
-## Theme: "Rugged Valley Harvest"
-Working-ranch / irrigation-canal look tied to Ceres, CA (a wheat-and-railroad town since the 1870s, home of California's first irrigation district, TID, 1887).
-- Palette: navy `#1C2B3A`, charcoal `#1E2328`, barn red `#9B2B22`, wheat gold `#D9A22E`, canvas `#EFE6D2`, tan `#DCCBA8`, olive `#4A5A26`, rust `#8E4320` (all text pairs meet WCAG AA).
-- Type: Oswald (headings), Roboto Slab (card titles), Source Sans 3 (body, 19px), Stardos Stencil (small accents).
-- Cards: square, steel-plate navy top band with bolt heads; schedules list the time in bold in a left column.
-- Footer: horizon line drawing (orchards, canal, water tower, foothills, tractor) with Genesis 8:22.
+## Theme: "Golden Hour Fields"
+Warm, cinematic late-afternoon farm look tied to Ceres, CA (a wheat-and-railroad town since the 1870s, home of California's first irrigation district, TID, 1887).
+- Palette: soil `#1F1712`, cream `#F5EEE2`, wheat `#E2B866`, sage `#4E6450`, brown `#7A4E2A`, ink `#2A2019` (text pairs meet WCAG AA; ink on cream is about 13.8:1).
+- Type: Fraunces (headings, lining numerals), Inter (body, 18px). Neither font uses a slashed zero.
+- Full-height photo hero on the home page; shorter cinematic photo headers on inner pages, each with a strong warm gradient overlay for readable text.
+- Frosted-glass cards on dark sections (they turn more opaque on phones so they stay legible); clean white rounded cards on warm neutral sections; a faint topographic line pattern.
+- Subtle fade-up motion on scroll, switched off for visitors who ask for reduced motion.
+- Footer: emblem with Genesis 8:22.
 
 ## Structure
 - `index.html`: Home
 - `plan-your-visit/`, `about/`, `what-we-believe/`, `leadership-contact/`
 - `ministries/` plus `sabbath-school/`, `pathfinders/`, `adventurers/`, `youth/`, `young-at-heart/`, `small-groups/`, `community-services/`, `school/`
 - `events/`, `sermons/`, `bulletins/`, `prayer/`, `give/`, `members/`
-- `assets/site.css`, `assets/site.js` (mobile menu + preview form handling), `img/` (WebP), `favicon.svg`
+- `assets/site.css`, `assets/site.js` (mobile menu, header scroll state, reveal motion, preview form handling), `img/` (WebP), `favicon.svg`
 - `404.html`, `sitemap.xml` (production URLs), `robots.txt` (preview: disallow), `.nojekyll`
 
 All internal links are **relative**, so the site works from a subpath such as `https://shwinston.github.io/ceres-sda-redesign/`.
@@ -39,5 +41,6 @@ Every page has `<meta name="robots" content="noindex,nofollow">` and `robots.txt
 - `img/potluck.webp`: "Potluck with Friends", San Bernardino National Forest, public domain, via Wikimedia Commons (illustrative; not our members).
 - `img/canal.webp`, `img/gatewheel.webp`: Modesto Irrigation District canal and headgate, USDA photos (July 2015), public domain, via Wikimedia Commons.
 - `img/tractor.webp`: tractor at Mota Ranch almond orchard, Livingston, CA, USDA NRCS photo, public domain, via Wikimedia Commons.
+- `img/orchard.webp`: "Almond orchard in California" (NRCSCA06034), USDA NRCS photo, public domain, via Wikimedia Commons.
 - `img/harvest.webp`: almond harvest windrows, California, USDA NRCS photo, public domain, via Wikimedia Commons.
 (All illustrative; they do not depict our members.)
