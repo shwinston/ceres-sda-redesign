@@ -1,0 +1,67 @@
+# ============================================================
+#  CERES SDA CHURCH — WEBSITE UPDATES
+#  This one file feeds the Events, Bulletins and Watch pages
+#  and the "This week" part of the home page.
+#
+#  How to edit (full guide: README-for-secretary.md):
+#   • One item per line. Separate the parts with  |
+#   • Dates are always YEAR-MONTH-DAY, e.g. 2026-10-31
+#   • Lines that start with # are notes. The website ignores them.
+#   • Past events hide themselves. No need to delete them.
+# ============================================================
+
+[settings]
+# A short notice shown at the top of the home page. Leave empty for none.
+notice:
+# Optional: a Google Calendar "embed" link. Leave empty to hide the calendar.
+calendar:
+
+[events]
+# date | time | event | where or details
+2026-10-24 | After church | Creation Sabbath Picnic & Hike | Dos Rios State Park, 3559 Shiloh Rd, Modesto. Bring a sack lunch and water.
+2026-10-25 | 10 a.m.–12 p.m. | Card Making Class |
+2026-10-28 | 10:15 a.m. | Lunch with the Doctor | Dr. Ed Holm on protein, Fellowship Hall. Lunch served after. RSVP to the church office.
+2026-10-31 | 2–4 p.m. | Adventurers Induction Ceremony |
+2026-10-31 | 4 p.m. | Bonfire Potluck & Vespers | La Grange. Bring a dish to share and a camp chair.
+2026-11-07 | 2–6 p.m. | Speed Fellowshipping (Singles 21–65+) | Mountain View Central SDA Church
+2026-11-08 | 12–3 p.m. | Apple Festival | Pies, cinnamon rolls, apple sauce and cider
+2026-11-14 | 4 p.m. | The Great Hymn Sing | Ceres SDA Church. CVCA singers & Resonare Spei Handbell Ensemble. Free.
+2026-11-14 | 7 p.m. | Pure Imagination: CVCA Talent Show | CVCA Gymnasium, doors open 5:45 p.m.
+
+[bulletins]
+# date | title (optional) | link to the PDF | link to the web version (optional)
+# Newest first is easiest, but any order works.
+2026-10-24 | Creation Sabbath | https://shwinston.github.io/ceres-bulletin/Ceres_Bulletin_2026-10-24_print.pdf | https://shwinston.github.io/ceres-bulletin/
+2026-10-17 | | https://assets.adventistconnect.org/cerescaa/2026/10/16220445/101726.pdf | https://shwinston.github.io/ceres-bulletin/2026-10-17.html
+2026-10-10 | Youth Sabbath | https://assets.adventistconnect.org/cerescaa/2026/10/09214910/101026.pdf | https://shwinston.github.io/ceres-bulletin/2026-10-10.html
+2026-10-03 | | https://assets.adventistconnect.org/cerescaa/2026/10/02211554/100326.pdf
+2026-09-26 | | https://assets.adventistconnect.org/cerescaa/2026/09/25231952/092626.pdf
+2026-09-19 | | https://assets.adventistconnect.org/cerescaa/2026/09/18150108/091926.pdf
+2026-09-12 | | https://assets.adventistconnect.org/cerescaa/2026/09/11161449/091226.pdf
+2026-09-05 | | https://assets.adventistconnect.org/cerescaa/2026/09/05070337/090526-1.pdf
+2026-08-29 | | https://assets.adventistconnect.org/cerescaa/2026/08/28095559/082926.pdf
+2026-08-22 | | https://assets.adventistconnect.org/cerescaa/2026/08/21144413/082226.pdf
+2026-08-15 | | https://assets.adventistconnect.org/cerescaa/2026/08/15151852/081526.pdf
+2026-08-08 | | https://assets.adventistconnect.org/cerescaa/2026/08/07212612/080826.pdf
+2026-08-01 | | https://assets.adventistconnect.org/cerescaa/2026/08/01174355/080126.pdf
+
+[sermons]
+# date | sermon title | speaker | YouTube link
+2026-10-24 | The Maker’s Measured Week | Shane Hilde | https://www.youtube.com/watch?v=SEsgJ0ogvh8
+2026-10-17 | The Invisible War | Michael Eddens | https://www.youtube.com/watch?v=V7Y6noUgylI
+2026-10-10 | Preparing for Redemption | Tyler Mulligan | https://www.youtube.com/watch?v=7V4XLxRWAI4
+2026-10-03 | Between the Cups | Justin Cook | https://www.youtube.com/watch?v=3iWeQcc2K18
+2026-09-26 | Heart of the Shepherd | Anil Kanda | https://www.youtube.com/watch?v=-ZG6QC_uUF0
+2026-09-19 | Megaphones vs Mirrors | Scott Wendt | https://www.youtube.com/watch?v=Tw0aF2F4zGo
+2026-09-12 | Breath of Life | Nathan White | https://www.youtube.com/watch?v=lW2izddo3mQ
+
+[weekly]
+# day(s) | time | activity | where
+Saturday | 9:30 a.m. | Sabbath School | Classes for every age
+Saturday | 11:00 a.m. | Worship Service | In person and live on YouTube
+Monday & Wednesday | 9–10 a.m. | Young at Heart Fitness (50+) | Fireside Hall
+Tuesday & Thursday | 6:30 p.m. | Upper Room Study: Acts | On Zoom
+Wednesday | 6–8 p.m. | Pathfinders | Fellowship Hall
+Wednesday | 7:00 p.m. | Prayer Meeting & Bible Study | Youth Room
+1st & 3rd Thursday | 8–10 a.m. | Community Service Food & Clothing |
+3rd Tuesday | 10–11 a.m. | Second Harvest Mobile Fresh | Free produce

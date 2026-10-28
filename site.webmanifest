@@ -1,10 +1,10 @@
 {
  "name": "Ceres Seventh-day Adventist Church",
- "short_name": "Ceres Adventist",
+ "short_name": "Ceres SDA",
  "start_url": "./",
- "display": "browser",
- "background_color": "#F7F2E7",
- "theme_color": "#F7F2E7",
+ "display": "standalone",
+ "background_color": "#F7F4EE",
+ "theme_color": "#F7F4EE",
  "icons": [
   {
    "src": "icon-192.png",
@@ -15,11 +15,6 @@
    "src": "icon-512.png",
    "sizes": "512x512",
    "type": "image/png"
-  },
-  {
-   "src": "favicon.svg",
-   "sizes": "any",
-   "type": "image/svg+xml"
   }
  ]
 }
