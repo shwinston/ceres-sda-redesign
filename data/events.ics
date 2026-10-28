@@ -1,0 +1,88 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ceres Seventh-day Adventist Church//Website preview//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ceres SDA Church
+X-WR-TIMEZONE:America/Los_Angeles
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:20261028-lunch-with-the-doctor@ceres-sda-preview
+DTSTAMP:20261028T063300Z
+DTSTART;TZID=America/Los_Angeles:20261028T101500
+DTEND;TZID=America/Los_Angeles:20261028T111500
+SUMMARY:Lunch with the Doctor
+DESCRIPTION:Time: 10:15 a.m.\nDr. Ed Holm on protein\, Fellowship Hall
+ . Lunch served after. RSVP to the church office.\nCeres Seventh-day Ad
+ ventist Church
+END:VEVENT
+BEGIN:VEVENT
+UID:20261031-adventurers-induction-ceremony@ceres-sda-preview
+DTSTAMP:20261028T063300Z
+DTSTART;TZID=America/Los_Angeles:20261031T140000
+DTEND;TZID=America/Los_Angeles:20261031T160000
+SUMMARY:Adventurers Induction Ceremony
+DESCRIPTION:Time: 2–4 p.m.\nCeres Seventh-day Adventist Church
+END:VEVENT
+BEGIN:VEVENT
+UID:20261031-bonfire-potluck-vespers@ceres-sda-preview
+DTSTAMP:20261028T063300Z
+DTSTART;TZID=America/Los_Angeles:20261031T160000
+DTEND;TZID=America/Los_Angeles:20261031T170000
+SUMMARY:Bonfire Potluck & Vespers
+DESCRIPTION:Time: 4 p.m.\nLa Grange. Bring a dish to share and a camp 
+ chair.\nCeres Seventh-day Adventist Church
+END:VEVENT
+BEGIN:VEVENT
+UID:20261107-speed-fellowshipping-singles-21-65@ceres-sda-preview
+DTSTAMP:20261028T063300Z
+DTSTART;TZID=America/Los_Angeles:20261107T140000
+DTEND;TZID=America/Los_Angeles:20261107T180000
+SUMMARY:Speed Fellowshipping (Singles 21–65+)
+DESCRIPTION:Time: 2–6 p.m.\nMountain View Central SDA Church\nCeres Se
+ venth-day Adventist Church
+END:VEVENT
+BEGIN:VEVENT
+UID:20261108-apple-festival@ceres-sda-preview
+DTSTAMP:20261028T063300Z
+DTSTART;TZID=America/Los_Angeles:20261108T120000
+DTEND;TZID=America/Los_Angeles:20261108T150000
+SUMMARY:Apple Festival
+DESCRIPTION:Time: 12–3 p.m.\nPies\, cinnamon rolls\, apple sauce and c
+ ider\nCeres Seventh-day Adventist Church
+END:VEVENT
+BEGIN:VEVENT
+UID:20261114-the-great-hymn-sing@ceres-sda-preview
+DTSTAMP:20261028T063300Z
+DTSTART;TZID=America/Los_Angeles:20261114T160000
+DTEND;TZID=America/Los_Angeles:20261114T170000
+SUMMARY:The Great Hymn Sing
+DESCRIPTION:Time: 4 p.m.\nCeres SDA Church. CVCA singers & Resonare Sp
+ ei Handbell Ensemble. Free.\nCeres Seventh-day Adventist Church
+END:VEVENT
+BEGIN:VEVENT
+UID:20261114-pure-imagination-cvca-talent-show@ceres-sda-preview
+DTSTAMP:20261028T063300Z
+DTSTART;TZID=America/Los_Angeles:20261114T190000
+DTEND;TZID=America/Los_Angeles:20261114T200000
+SUMMARY:Pure Imagination: CVCA Talent Show
+DESCRIPTION:Time: 7 p.m.\nCVCA Gymnasium\, doors open 5:45 p.m.\nCeres
+  Seventh-day Adventist Church
+END:VEVENT
+END:VCALENDAR

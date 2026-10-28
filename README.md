@@ -34,18 +34,47 @@ no rebuild, and past events drop off automatically by date.
 - No frameworks. One CSS file, one small JS file. Images are WebP with
   `srcset` and lazy loading. `prefers-reduced-motion` respected.
 
-## Photos
+## Photos (samples for the elders' mockup)
 
-Stock photos from Pexels (Pexels License), credited in the footer:
-Askar Abayev, Daniel & Hannah Snipes, Soly Moses. Replace them with the
-church's own photos when available (same file names in `assets/img/`).
+Every photo is a stand-in and carries a small "Sample photo" / "AI sample"
+tag. Replace them with the church's own photos (same file names in
+`assets/img/`, WebP) and remove the tag (`simg()` → `img()` in build.py).
 
-## Forms
+| File | Where | Source |
+|---|---|---|
+| greeter | Home hero | AI-generated generic scene (not real members) |
+| family | Home "What to expect" | Pexels 36674941, Jonathan Goncalves |
+| kids | Home teaser, Visit "What about my kids?" | Pexels 8613091, Yan Krukau |
+| field | Home "Find us" | Pexels 12153162, Soly Moses |
+| exterior | Visit, top | AI-generated generic building (NOT the Ceres church) |
+| sanctuary | Visit "What to expect" | AI-generated generic sanctuary (not ours) |
+| study | About › Get involved | Pexels 8674206, RDNE Stock project |
+| service | About › Get involved | Pexels 6646900, RDNE Stock project |
+| fellowship | About › Get involved | Pexels 30477307, Daniel & Hannah Snipes |
 
-The prayer-request and contact forms are UI only in this preview. On
-Cloudflare, each would POST to a Pages Function (or Worker) protected by
-Turnstile, which emails the message to the church inbox via Cloudflare Email
-Routing / Email Service. No database needed.
+Pexels photos are used under the Pexels License (free, commercial use OK,
+credit given in the footer).
+
+## Forms (preview only, nothing is sent)
+
+"Let us know you're coming" (Plan your visit), Prayer request and Contact
+are UI only. Submitting shows a confirmation on the page and sends nothing:
+no form service, no Turnstile, no email. "Add to calendar" and "Subscribe"
+build a standard .ics file on the visitor's device from data/updates.txt
+(`data/events.ics` is also written at build time as a no-JS fallback).
+
+## Future items (not connected yet, on purpose)
+
+- **Form backend:** a Pages Function / Worker with Turnstile that emails each
+  form to the right person (office, prayer team, greeters).
+- **Analytics:** Cloudflare Web Analytics (cookie-free) if the church wants
+  visit counts. No analytics script is on the site today.
+- **Sermons:** the latest sermon is typed into updates.txt. Later, a scheduled
+  Worker could read the YouTube channel feed and update it automatically.
+- **Calendar:** a live subscribable feed (webcal://) or a shared Google
+  Calendar, instead of the one-time .ics download.
+- **Map:** the Visit page shows a standard Google Maps embed (no API key).
+  It could become a static map image if the church prefers no third-party embeds.
 
 ## Hosting on Cloudflare
 
