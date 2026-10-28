@@ -59,6 +59,7 @@ calendar:
 # day(s) | time | activity | where
 Saturday | 9:30 a.m. | Sabbath School | Classes for every age
 Saturday | 11:00 a.m. | Worship Service | In person and live on YouTube
+1st & 3rd Saturday | 2–4 p.m. | Adventurer Club |
 Monday & Wednesday | 9–10 a.m. | Young at Heart Fitness (50+) | Fireside Hall
 Tuesday & Thursday | 6:30 p.m. | Upper Room Study: Acts | On Zoom
 Wednesday | 6–8 p.m. | Pathfinders | Fellowship Hall
